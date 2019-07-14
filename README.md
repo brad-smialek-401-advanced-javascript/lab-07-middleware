@@ -9,7 +9,7 @@ Middleware, Routing, Modularization Practice
 
 
 ### Links and Resources
-* [submission PR]()
+* [submission PR](https://github.com/brad-smialek-401-advanced-javascript/lab-07-middleware)
 * [front-end](localhost:8080)
 
 
