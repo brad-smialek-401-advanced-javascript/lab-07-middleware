@@ -6,15 +6,34 @@ const app = express();
 
 const PORT = process.env.PORT || 8080;
 
+/**
+ *function outputs time
+ *
+ * @param {*} req
+ * @param {*} res
+ * @param {*} next
+ */
 let timeRequest = (req,res,next) => {
   req.requestTime = new Date();
   next();
 };
+/**
+ *
+ *
+ * @param {*} req
+ * @param {*} res
+ * @param {*} next
+ */
 let timeLog = (req, res, next) => {
   console.log('\x1b[35m',`method: ${req.method} \n path: ${req.path} \n request time: ${req.requestTime}`, '\x1b[0m');
   next();
 };
 
+/**
+ *function squares number
+ *
+ * @param {*} number
+ */
 const square = (number) => (req, res, next) => {
   req.number = number * number;
   next();
