@@ -9,9 +9,11 @@ Middleware, Routing, Modularization Practice
 
 
 ### Links and Resources
+
 * [Link to lab-7-api-server](https://github.com/brad-smialek-401-advanced-javascript/lab-07-api-server/blob/master/README.md)
 * [submission PR](https://github.com/brad-smialek-401-advanced-javascript/lab-07-middleware)
 * [front-end](localhost:8080)
+
 
 
 ### Modules
@@ -47,4 +49,6 @@ Middleware, Routing, Modularization Practice
 * What assertions need to be / should be made?
 
 #### UML
+
 ![uml](./assets/uml.jpg)
+
